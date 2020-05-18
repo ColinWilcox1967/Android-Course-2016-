@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title">Timer1</string>
+    <string name="app_name">TimerApp1</string>
+    <string name="text_start">Start</string>
+    <string name="text_stop">Stop</string>
+</resources>

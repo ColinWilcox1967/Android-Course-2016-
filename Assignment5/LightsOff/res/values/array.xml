@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<resources>
+    <string-array name="gameDifficultyArray"> 
+		<item>Easy</item> 
+		<item>Medium</item>
+		<item>Hard</item>
+    </string-array>
+</resources>

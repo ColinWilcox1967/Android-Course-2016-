@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/ButtonStart"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="@string/text_start" >
+            </Button>
+
+
+            <Button
+                android:id="@+id/ButtonStop"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="@string/text_stop" >
+            </Button>
+        </LinearLayout>
+
+    	<LinearLayout android:id="@+id/quadrants12"
+    	    android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="0.33"
+    	    android:orientation="horizontal"
+    	 
+    	   >
+	        <View
+	            android:id="@+id/quadrant1"
+	            android:layout_width="fill_parent"
+	            android:layout_height="202dp"
+	            android:layout_weight="4.93" >
+	        </View>
+	        <View
+	            android:id="@+id/quadrant2"
+	            android:layout_width="fill_parent"
+	            android:layout_height="202dp"
+	            android:layout_weight="4.93" >
+	        </View>
+	     </LinearLayout>
+	    <LinearLayout android:id="@+id/quadrants34"
+    	    android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="0.33"
+    	    android:orientation="horizontal"> 
+	        <View
+	            android:id="@+id/quadrant3"
+	            android:layout_width="fill_parent"
+	            android:layout_height="202dp"
+	            android:layout_weight="4.93" >
+	        </View>
+	        <View
+	            android:id="@+id/quadrant4"
+	            android:layout_width="fill_parent"
+	            android:layout_height="202dp"
+	            android:layout_weight="4.93" >
+	        </View>
+	   </LinearLayout>
+</LinearLayout> 
